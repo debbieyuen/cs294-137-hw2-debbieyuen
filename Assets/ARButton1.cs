@@ -42,7 +42,8 @@ public class ARButton1 : MonoBehaviour, OnTouch3D
         if (remainingDebounceTime <= 0)
         {
             // Move the object up by 10cm and reset the wait counter.
-            this.gameObject.transform.Translate(new Vector3(0, 0.1f, 0));
+            //this.gameObject.transform.Translate(new Vector3(0, 0.1f, 0));
+            print("HI");
             remainingDebounceTime = debounceTime;
         }
     }

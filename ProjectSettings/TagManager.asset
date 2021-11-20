@@ -11,6 +11,10 @@ TagManager:
   - SimObj
   - StandingLiquid
   - Interactable
+  - red_button
+  - green_button
+  - blue_button
+  - reset_button
   layers:
   - Default
   - TransparentFX

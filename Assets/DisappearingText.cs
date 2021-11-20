@@ -14,6 +14,7 @@ public class DisappearingText : MonoBehaviour
     void Start()
     {
         timeRemaining = displayTime;
+        print("hi");
     }
 
     // Update is called once per frame
